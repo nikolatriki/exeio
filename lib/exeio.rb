@@ -1,15 +1,15 @@
 require "exeio/version"
 
 module Exeio
-  # class Factorial
-  #   def factorial_of(n)
-  #     (1..n).inject(:*)
-  #   end
-  # end
 
+  # Exercise Raindrops
   class Raindrops
     def raindrop_speak(num)
-      factors = { 3 => 'Pling', 5 => 'Plang', 7 => 'Plong'}
+      factors = {
+        3 => 'Pling',
+        5 => 'Plang',
+        7 => 'Plong'
+      }
       str = ''
       factors.each do |key, value|
         if (num % key).zero?
@@ -20,16 +20,51 @@ module Exeio
     end
   end
 
+  # Exercise Two fer
   class Twofer
     def two_fer(name = 'you')
       "One for #{name}, one for me"
     end
   end
 
+  # Exercise Acronym
   class Acronym
     def abbreviate(str)
       str.upcase.scan(/\b([A-Z]{1})/).join
     end
-
   end
+
+  # Exercise High Scores
+  class HighScores
+    
+  end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 end
+
+# Exercise for Hashes
+# dictionary = { 1 => 'uno', 2 => 'dos', 3 => 'tres' }
+# puts dictionary[1]
+# puts dictionary.fetch(1)
+# dictionary[4] = 'quatro'
+# puts dictionary[4].capitalize
+
+# puts dictionary.keys
+# puts dictionary.values
+
+# puts dictionary.key?(10)
+# puts dictionary.key?(1)
+
+# puts dictionary.invert

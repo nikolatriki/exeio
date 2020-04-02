@@ -1,15 +1,3 @@
-# RSpec.describe Exeio::Factorial do
-#   let(:calculator) { Exeio::Factorial.new}
-
-#   it 'finds the factorial of 5' do
-#     expect(calculator.factorial_of(5)).to eq(120)
-#   end
-
-#   it 'finds the factorial of 3' do
-#     expect(calculator.factorial_of(3)).to eq(6)
-#   end
-# end
-
 RSpec.describe Exeio::Raindrops do
   let(:droplet) { Exeio::Raindrops.new }
 
