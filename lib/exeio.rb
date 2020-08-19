@@ -1,4 +1,4 @@
-require "exeio/version"
+# require "exeio/version"
 
 module Exeio
 
@@ -36,7 +36,7 @@ module Exeio
 
   # Exercise High Scores
   class HighScores
-    
+
   end
 
 
