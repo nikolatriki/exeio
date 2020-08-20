@@ -1,4 +1,4 @@
-# require "exeio/version"
+require "exeio/version"
 
 module Exeio
 
