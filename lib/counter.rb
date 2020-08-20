@@ -1,6 +1,6 @@
 (1..100).each do |counter|
   if (counter % 3).zero? && (counter % 5).zero?
-	  puts 'Ping' + 'Pong'
+    puts 'Ping' + 'Pong'
   elsif (counter % 3).zero?
     puts 'Ping'
   elsif (counter % 5).zero?
